@@ -24,4 +24,4 @@ urlpatterns = [
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 
-admin.site.site_header = 'Centro de Administración de OrBuss'
+admin.site.site_header = 'Centro de Administración PSC'
