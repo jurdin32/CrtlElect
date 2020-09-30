@@ -104,9 +104,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'es-EC'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Guayaquil'
 
 USE_I18N = True
 
@@ -119,3 +119,17 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+if DEBUG:
+    STATICFILES_DIRS=[
+        'static',
+    ]
+else:
+    STATIC_ROOT="static"
+
+MEDIA_URL="/media/"
+
+MEDIA_ROOT="media"
+
+
+
