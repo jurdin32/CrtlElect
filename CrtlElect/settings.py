@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'Candidatos',
     'Elecciones',
     'Padron',
+    'Lugares',
 ]
 
 MIDDLEWARE = [
